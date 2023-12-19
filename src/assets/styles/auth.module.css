@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=League+Spartan:wght@100;200&family=Montserrat:ital,wght@0,100;1,100&family=Open+Sans:wght@300&family=PT+Sans&family=Poppins:wght@100&family=Raleway:wght@200&family=Roboto:wght@100;400&family=Sono:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.inputBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 9em;
+    margin-right: 6em;
+}
+
+.formControl {
+    width: 320px;
+    height: 40px;
+    margin: 20px 0;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-bottom: 2px solid #C0C0C0;
+}
+
+.formControl:focus {
+    transform: scale(1.05);
+
+}
+
+.formControl::placeholder {
+    position: absolute;
+
+    animation: move-placeholder 0.2s ease-in-out;
+}
+
+
+.primaryBtn {
+    margin: 30px 0;
+    width: 320px;
+    height: 35px;
+    border: none;
+    background-color: #C0C0C0;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.link {
+    text-decoration: none;
+    margin-right: 13em;
+}
+
+.register {
+    text-decoration: none;
+
+}
+
+.top {
+    margin-top: 8em;
+}
+
+.basektImg {
+    z-index: 10;
+}
