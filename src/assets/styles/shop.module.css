@@ -6,3 +6,51 @@ body {
     font-family: 'Roboto', sans-serif;
 
 }
+
+.header {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.basketImg {
+    padding: 0 0.3em;
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+}
+
+.logo {
+    display: flex;
+    margin: 15px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt {
+    color: #000;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.btn {
+    border-radius: 80px;
+    background: var(--Maine-blue, #7e81e4);
+    color: aliceblue;
+    border: none;
+    display: flex;
+    width: 215px;
+    font-weight: 800;
+    height: 44px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
