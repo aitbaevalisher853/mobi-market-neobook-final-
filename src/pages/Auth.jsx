@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import styles from "../assets/styles/auth.module.css"
 import basket from "../assets/img/Frame 851212072.png"
 import  background from "../assets/img/image 1.png"
+import backImg from "../assets/img/backPhoto.png"
 
 
 function SignIn() {
@@ -14,12 +15,11 @@ function SignIn() {
 
   return (
     <div  className={styles.container}>
-      <div className={styles.bgImg}>
-          <img src={background} alt="" />
-         <div>
-         <img  className={styles.basektImg} src={basket} alt="" />
-         </div>
-      </div>
+        <div className={styles.images} >
+           <img src={background} alt="" />
+           <img src={basket} alt="" />
+           {/* <img src={backImg} alt="" /> */}
+        </div>
        <form onSubmit={'handleSubmit'}>
         <div className={styles.inputBar}>
         <div className={styles.formGroup}>
