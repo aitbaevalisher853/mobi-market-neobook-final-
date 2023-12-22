@@ -72,6 +72,46 @@ class App extends React.Component {
         <span>100</span>
       </div>
     </div>
+    <div className={styles.card}>
+      <img className={styles.car} src={carImg} alt="" />
+      <h2>BMW M4 Coupe: A </h2>
+      <p>Two-Door</p>
+      <p>23 000$</p>
+      <div className={styles.rating}>
+      <img src={like} alt="" />
+        <span>100</span>
+      </div>
+    </div>
+    <div className={styles.card}>
+      <img className={styles.car} src={carImg} alt="" />
+      <h2>BMW M4 Coupe: A </h2>
+      <p>Two-Door</p>
+      <p>23 000$</p>
+      <div className={styles.rating}>
+      <img src={like} alt="" />
+        <span>100</span>
+      </div>
+    </div>
+    <div className={styles.card}>
+      <img className={styles.car} src={carImg} alt="" />
+      <h2>BMW M4 Coupe: A </h2>
+      <p>Two-Door</p>
+      <p>23 000$</p>
+      <div className={styles.rating}>
+      <img src={like} alt="" />
+        <span>100</span>
+      </div>
+    </div>
+    <div className={styles.card}>
+      <img className={styles.car} src={carImg} alt="" />
+      <h2>BMW M4 Coupe: A </h2>
+      <p>Two-Door</p>
+      <p>23 000$</p>
+      <div className={styles.rating}>
+      <img src={like} alt="" />
+        <span>100</span>
+      </div>
+    </div>
            </div>
         </div>
       );
