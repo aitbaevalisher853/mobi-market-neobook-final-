@@ -7,6 +7,10 @@ body {
 
 }
 
+.main {
+    max-height: 100vh;
+}
+
 .header {
     display: flex;
     padding: 0 20px;
